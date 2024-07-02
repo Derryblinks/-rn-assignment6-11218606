@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { View, Text, Image, StyleSheet, FlatList, TouchableOpacity } from 'react-native';
-import { getData, storeData } from '../storage/storage';
+import React, { useEffect, useState } from 'react';
+import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { getData, storeData } from '../Storage/storage';
 
 const CartScreen = () => {
   const [cart, setCart] = useState([]);
@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
     width: 150,
     height: 50,
     resizeMode: 'contain',
+    marginLeft: 100,
   },
   searchIcon: {
     width: 24,
@@ -73,6 +74,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
+    fontFamily: 'Balgor',
     textAlign: 'center',
     marginVertical: 20,
   },

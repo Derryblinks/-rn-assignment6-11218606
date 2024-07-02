@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   infoContainer: {
-    alignItems: 'center', 
+    alignItems: 'left', 
   },
   name: {
     fontSize: 16,

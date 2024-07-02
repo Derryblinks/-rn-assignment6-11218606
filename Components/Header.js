@@ -1,4 +1,3 @@
-Header.js
 
 import React from 'react';
 import { View, Image, StyleSheet, TouchableOpacity } from 'react-native';
@@ -12,7 +11,7 @@ const Header = () => {
       <TouchableOpacity onPress={() => navigation.openDrawer()}>
         <Image source={require('../assets/images/Menu.png')} style={styles.icon} />
       </TouchableOpacity>
-      <Image source={require('../assets/images/Logo.png')} style={styles.icon} />
+      <Image source={require('../assets/images/Logo.png')} style={styles.mainIcon} />
       <Image source={require('../assets/images/Search.png')} style={styles.icons} />
       <Image source={require('../assets/images/shoppingBag.png')} style={styles.icon} />
     </View>
@@ -29,7 +28,16 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
   icons: {
-    marginRight: -80,
+    marginRight: -40,
+  },
+
+  mainIcon:{
+    width: 150,
+    height: 50,
+    marginLeft: 20,
+    alignItems:"center",
+    resizeMode: "contain",
+
   },
 });
 
