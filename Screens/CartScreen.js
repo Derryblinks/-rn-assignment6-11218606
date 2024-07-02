@@ -73,8 +73,8 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    fontWeight: 'bold',
-    fontFamily: 'Balgor',
+    fontWeight: '',
+    fontFamily: 'crake test',
     textAlign: 'center',
     marginVertical: 20,
   },

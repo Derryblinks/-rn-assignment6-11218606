@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 24,
-    fontFamily: "Balgor",
+    fontFamily: "crake test",
     fontWeight: '',
     margin: 10,
   },
