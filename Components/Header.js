@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={() => navigation.openDrawer()}>
-        <Image source={require('../assets/images/Menu.png')} style={styles.icon} />
+        <Image source={require('../assets/images/Menu.png')} style={styles.MenuIcon} />
       </TouchableOpacity>
       <Image source={require('../assets/images/Logo.png')} style={styles.mainIcon} />
       <Image source={require('../assets/images/Search.png')} style={styles.icons} />
@@ -39,6 +39,14 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
 
   },
+  MenuIcon:{
+  width: 30,
+  height: 30,
+  marginLeft: 10,
+  
+  },
+
+
 });
 
 export default Header;
