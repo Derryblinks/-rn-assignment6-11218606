@@ -12,8 +12,12 @@ const Header = () => {
         <Image source={require('../assets/images/Menu.png')} style={styles.MenuIcon} />
       </TouchableOpacity>
       <Image source={require('../assets/images/Logo.png')} style={styles.mainIcon} />
+      <TouchableOpacity>
       <Image source={require('../assets/images/Search.png')} style={styles.icons} />
+      </TouchableOpacity>
+      <TouchableOpacity>
       <Image source={require('../assets/images/shoppingBag.png')} style={styles.icon} />
+      </TouchableOpacity>
     </View>
   );
 };
